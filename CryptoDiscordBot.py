@@ -66,6 +66,12 @@ async def btc(wafi):
     recall2 = str((output_dict[0]['current_price']))
     recall3 = str((output_dict[0]['low_24h']))
     recall4 = str((output_dict[0]['ath']))
+
+    embed = discord.Embed(title="Cyrpto Bot", description="", color=0xff951c)
+    
+    embed.set_footer(text="Bot made by @flclxo (m4tro)")
+    embed.set_thumbnail(url="https://marxistdegeneracy.files.wordpress.com/2018/04/anime-bitcoin.jpg")
+    await wafi.channel.send(embed=embed)
     
 
     await wafi.send("Token: " + recall1+ " | "+ " Current Price: " + recall2 + " | " + "24 Hour Low: " + recall3 + " | " + "ATH: " + recall4)
@@ -82,6 +88,12 @@ async def doge(wafi):
     recall2 = str((output_dict[0]['current_price']))
     recall3 = str((output_dict[0]['low_24h']))
     recall4 = str((output_dict[0]['ath']))
+
+    embed = discord.Embed(title="Cyrpto Bot", description="", color=0xe7f03e)
+    
+    embed.set_footer(text="Bot made by @flclxo (m4tro)")
+    embed.set_thumbnail(url="http://40.media.tumblr.com/e2ab4591b6e47a3b9bcf195f997326bc/tumblr_no642wHmZG1qa26muo1_500.png")
+    await wafi.channel.send(embed=embed)
     
 
     await wafi.send("Token: " + recall1+ " | "+ " Current Price: " + recall2 + " | " + "24 Hour Low: " + recall3 + " | " + "ATH: " + recall4)
@@ -97,10 +109,17 @@ async def eth(wafi):
     recall2 = str((output_dict[0]['current_price']))
     recall3 = str((output_dict[0]['low_24h']))
     recall4 = str((output_dict[0]['ath']))
+    
+    embed = discord.Embed(title="Crypto Bot", description="", color=0x0044ff)
+    
+    embed.set_footer(text="Bot made by @flclxo (m4tro)")
+    embed.set_thumbnail(url="https://wallpapercave.com/wp/wp6004749.jpg")
+    await wafi.channel.send(embed=embed)
 
     
 
     await wafi.send("Token: " + recall1+ " | "+ " Current Price: " + recall2 + " | " + "24 Hour Low: " + recall3 + " | " + "ATH: " + recall4)
 
-client.run('BOT TOKEN')
+client.run('TOKEN HERE')
+    
     
