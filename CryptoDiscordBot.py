@@ -67,7 +67,7 @@ async def btc(wafi):
     recall3 = str((output_dict[0]['low_24h']))
     recall4 = str((output_dict[0]['ath']))
 
-    embed = discord.Embed(title="Cyrpto Bot", description="", color=0xff951c)
+    embed = discord.Embed(title="Crypto Bot", description="", color=0xff951c)
     
     embed.set_footer(text="Bot made by @flclxo (m4tro)")
     embed.set_thumbnail(url="https://marxistdegeneracy.files.wordpress.com/2018/04/anime-bitcoin.jpg")
@@ -89,7 +89,7 @@ async def doge(wafi):
     recall3 = str((output_dict[0]['low_24h']))
     recall4 = str((output_dict[0]['ath']))
 
-    embed = discord.Embed(title="Cyrpto Bot", description="", color=0xe7f03e)
+    embed = discord.Embed(title="Crypto Bot", description="", color=0xe7f03e)
     
     embed.set_footer(text="Bot made by @flclxo (m4tro)")
     embed.set_thumbnail(url="http://40.media.tumblr.com/e2ab4591b6e47a3b9bcf195f997326bc/tumblr_no642wHmZG1qa26muo1_500.png")
