@@ -9,3 +9,6 @@ pip install requests
 py -3 -m pip install -U discord.py
 Discord py
 
+
+TO DO LIST ADD MORE COINS
+#TOP 100 COINS BY MARKETCAP
