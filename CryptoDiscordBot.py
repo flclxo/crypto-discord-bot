@@ -19,40 +19,6 @@ async def on_ready():
     print('Bot is online')
 
 
-@client.command()
-async def anime(wafi):
-    #!anime to use 
-    anime = requests.get("https://animechan.vercel.app/api/random")
-
- 
-    recall1 = anime.json()['anime']
-    recall2 = anime.json()['character']
-    recall3 = anime.json()['quote']
-    
-
-    await wafi.send("Anime Show :  " + recall1 + " | " + " Character: " + recall2 + " | " + " Quote:  " + recall3)
-
-@client.command()
-async def image(wafi):
-    #!image to use
-    image = requests.get("https://api.waifu.pics/sfw/waifu")
-
- 
-    recall1 = image.json()['url']
-    
-
-    await wafi.send("Image: " + recall1)
-
-@client.command()
-async def sadimage(wafi):
-    #!sadimage to use
-    sad = requests.get("https://api.waifu.pics/sfw/happy")
-
- 
-    recall1 = sad.json()['url']
-    
-
-    await wafi.send("Image: " + recall1)
 
 @client.command()
 async def btc(wafi):
