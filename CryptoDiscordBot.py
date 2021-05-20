@@ -92,4 +92,6 @@ async def eth(wafi):
     await wafi.send("Token: " + recall1 + " | Current Price: " + recall2 + " | " + " Market Cap Ranking: " + recall5 + " | " + "24 Hour Low: "  + recall3 +" | " + " Price Change 24H: " + recall6 + " | "  + "ATH: " + recall4)
 
 client.run('ENTER YOUR DISCORD BOT TOKEN HERE')
+
+#add more tokens and reduce lines of code
     
