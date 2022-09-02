@@ -2,12 +2,5 @@
 # crypto-discord-bot
 Crypto discord bot that provides info on various coins using coingecko API
 
-Requirements 
-///Python 3
-////pip install requests
-////py -3 -m pip install -U discord.py
 
-TO DO LIST ADD MORE COINS
-#TOP 100 COINS BY MARKETCAP
-#ADD CHART VIEW
-#ADD DISCORD PRICE ALERT
+
